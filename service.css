@@ -29,3 +29,10 @@ p{
     transition: 0.5s;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    h1{
+        padding-top: 70%;
+    }
+}
