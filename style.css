@@ -679,6 +679,11 @@ header .bx{
         background-size: contain;
         background-blend-mode: multiply;
     }
+
+    .contact-form form {
+        position: relative;
+        margin-right: 0%;
+    }
 }
 
 
