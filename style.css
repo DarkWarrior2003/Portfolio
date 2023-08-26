@@ -245,9 +245,23 @@ section{
     animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
     transform: scaleX(1);
     transform-origin: left;
+    
 }
 
 
+
+
+
+.Technical-bars .bar .progress-line span{
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: progress 1500ms ease-in 1;
+    transform: scaleX(1);
+    transform-origin: left;
+    
+}
 
 @keyframes animate{
     100%{
@@ -256,14 +270,11 @@ section{
     
 }
 
-.Technical-bars .bar .progress-line span{
-    height: 100%;
-    background-color: #0ef;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(1);
-    transform-origin: left;
+@keyframes progress {
+    from{
+        width: 0;
+    }
+    
 }
 
 .progress-line.html span{
@@ -585,12 +596,16 @@ header .bx{
     }
     .about-text h2{
         font-size: 50px;
+
     }
     .about-text h4{
-        font-size: 22px;
+        font-size: 18px;
+        padding-left: 35px;
     }
     .about-text p{
-        font-size: 15px;
+        font-size: 17px;
+        text-align: justify;
+        padding-left: 10%;
     }
     .sub-title{
         font-size: 50px;
