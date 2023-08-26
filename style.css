@@ -605,9 +605,9 @@ header .bx{
         padding-left: 35px;
     }
     .about-text p{
-        font-size: 17px;
-        text-align: -webkit-auto;
-        padding-left: 10%;
+        font-size: 19px;
+        text-align: center;
+        
     }
     .sub-title{
         font-size: 50px;
@@ -703,6 +703,5 @@ header .bx{
         margin-right: 0%;
     }
 }
-
 
 
