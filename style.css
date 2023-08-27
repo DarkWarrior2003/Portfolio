@@ -1,63 +1,64 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'poppins',sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
-	color: #ededed;
+body {
+    color: #ededed;
     background: rgb(2, 16, 53);
-    
-}
-header{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 10px 10%;
-	background: rgb(2, 12, 42);
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	z-index: 100;
+
 }
 
-.logo{
-	position: relative;
-	font-size: 25px;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 600;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background: rgb(2, 12, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
-    
+
 }
 
-.navbar a{
-	display: inline-block;
-	font-size: 20px;
+.navbar a {
+    display: inline-block;
+    font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: #fff;
-	text-decoration: none;
-	font-weight: 500;
-	margin-left: 35px;
-	transition: 1s;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 1s;
     opacity: 0;
     animation: slideTop 1s ease forwards;
 }
 
-.navbar a:hover{
-	color: #0ef;
+.navbar a:hover {
+    color: #0ef;
     font-size: 23px;
 }
 
-.home{
+.home {
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -70,18 +71,20 @@ header{
     padding: 70px 10% 0;
 }
 
-.home-content{
+.home-content {
     max-width: 600px;
 
 }
-.home-content h3{
+
+.home-content h3 {
     font-size: 32px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
 }
-.home-content h1{
+
+.home-content h1 {
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
@@ -89,7 +92,8 @@ header{
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
-.home-content p{
+
+.home-content p {
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
@@ -98,7 +102,7 @@ header{
 
 
 
-.home-sci i{
+.home-sci i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -118,21 +122,21 @@ header{
 
 
 
-.home-sci i:hover{
+.home-sci i:hover {
     background: #0ef;
     color: #000;
     box-shadow: 0 0 20px #0ef;
 }
 
-.home-content h3 span{
+.home-content h3 span {
     color: #0ef;
 }
 
-.home-content h3:nth-of-type(2){
+.home-content h3:nth-of-type(2) {
     margin-bottom: 30px;
 }
 
-.about{
+.about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -140,30 +144,30 @@ header{
     background: rgb(2, 16, 53) no-repeat;
 }
 
-.about-img img{
+.about-img img {
     padding-bottom: 20%;
     max-width: 630px;
     height: auto;
     width: 100%;
     border-radius: 8px;
     margin-left: 18%;
-    
+
 }
 
-.about-text{
+.about-text {
     margin-right: 20%;
 }
 
-.about-text h2{
+.about-text h2 {
     font-size: 60px;
 
 }
 
-.about-text h2 span{
+.about-text h2 span {
     color: #0ef;
 }
 
-.about-text h4{
+.about-text h4 {
     font-size: 29px;
     font-weight: 600;
     color: #fff;
@@ -171,37 +175,38 @@ header{
     margin: 15px 0 30px;
 }
 
-.about-text p{
+.about-text p {
     color: aliceblue;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
 
-.sub-title{
+.sub-title {
     text-align: center;
     font-size: 60px;
     padding-bottom: 70px;
-    }
-.sub-title span{
+}
+
+.sub-title span {
     color: #0ef;
 }
 
-section{
+section {
     display: flex;
     flex-wrap: wrap;
 }
 
 
 
-.container1{
+.container1 {
     width: 600px;
     height: 500px;
     padding: 70x 9px;
     margin-left: 246px;
 }
 
-.heading1{
+.heading1 {
     text-align: center;
     text-decoration: underline;
     text-underline-offset: 10px;
@@ -209,51 +214,51 @@ section{
     margin-bottom: 50px;
 }
 
-.bar{
+.bar {
     font-size: 23px;
 }
 
-.Technical-bars .bar{
+.Technical-bars .bar {
     margin-top: 40px 0;
 }
 
-.Technical-bars .bar:first-child{
+.Technical-bars .bar:first-child {
     margin-top: 0;
 }
 
-.Technical-bars .bar:last-child{
+.Technical-bars .bar:last-child {
     margin-bottom: 0;
 }
 
-.Technical-bars .bar .info{
+.Technical-bars .bar .info {
     margin-bottom: 5px;
 }
 
-.Technical-bars .bar .info span{
+.Technical-bars .bar .info span {
     font-size: 17px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
 
-.Technical-bars .bar .progress-line{
+.Technical-bars .bar .progress-line {
     position: relative;
     margin-bottom: 25px;
     border-radius: 20px;
     width: 100%;
     height: 6px;
     background-color: #04252e;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+    animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
     transform: scaleX(1);
     transform-origin: left;
-    
+
 }
 
 
 
 
 
-.Technical-bars .bar .progress-line span{
+.Technical-bars .bar .progress-line span {
     height: 100%;
     background-color: #0ef;
     position: absolute;
@@ -261,40 +266,40 @@ section{
     animation: progress 1500ms ease-in 1;
     transform: scaleX(1);
     transform-origin: left;
-    
+
 }
 
-@keyframes animate{
-    100%{
+@keyframes animate {
+    100% {
         transform: scaleX(0);
     }
-    
+
 }
 
 @keyframes progress {
-    from{
+    from {
         width: 0;
     }
-    
+
 }
 
-.progress-line.html span{
+.progress-line.html span {
     width: 70%;
 }
 
-.progress-line.css span{
+.progress-line.css span {
     width: 55%;
 }
 
-.progress-line.javascript span{
+.progress-line.javascript span {
     width: 60%;
 }
 
-.progress-line.java span{
+.progress-line.java span {
     width: 95%;
 }
 
-.progress-line span::after{
+.progress-line span::after {
     position: absolute;
     padding: 1px 8px;
     background-color: #000;
@@ -307,7 +312,7 @@ section{
     opacity: 0;
 }
 
-.progress-line span::after{
+.progress-line span::after {
     position: absolute;
     padding: 1px 8px;
     background-color: #000;
@@ -320,23 +325,23 @@ section{
     opacity: 0;
 }
 
-.progress-line.html span::after{
+.progress-line.html span::after {
     content: "70%";
 }
 
-.progress-line.css span::after{
+.progress-line.css span::after {
     content: "55%";
 }
 
-.progress-line.javascript span::after{
+.progress-line.javascript span::after {
     content: "60%";
 }
 
-.progress-line.java span::after{
+.progress-line.java span::after {
     content: "95%";
 }
 
-.progress-line span::before{
+.progress-line span::before {
     content: "";
     position: absolute;
     width: 0;
@@ -353,9 +358,9 @@ section{
 
 @keyframes showText {
 
-    100%{
+    100% {
         opacity: 1;
-    }    
+    }
 }
 
 
@@ -364,7 +369,7 @@ section{
     margin: 40px 0;
     font-size: 20px;
     margin-left: 100px;
-    
+
 }
 
 .tab-contents li span {
@@ -373,14 +378,15 @@ section{
     padding-bottom: 10px;
 }
 
-.tab-contents li .tabtext{
+.tab-contents li .tabtext {
     color: #c2e4cbb7;
     padding-top: 25px;
     font-size: 19px;
     padding-left: 20px;
     margin-top: 20%;
 }
-.tab-contents li i{
+
+.tab-contents li i {
     padding-left: 20px;
     padding-top: 10px;
     color: #0ef;
@@ -392,48 +398,54 @@ section{
 
 
 @keyframes slideRight {
-    0%{
+    0% {
         transform: translateX(-100px);
         opacity: 0;
-    }    
-    100%{
+    }
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
 }
+
 @keyframes slideLeft {
-    0%{
+    0% {
         transform: translateX(100px);
         opacity: 0;
-    }    
-    100%{
+    }
+
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
 @keyframes slideTop {
-    0%{
+    0% {
         transform: translateY(-100px);
         opacity: 0;
-    }    
-    100%{
-        transform: translateY(0px);
-        opacity: 1;
     }
-}
-@keyframes slideBottom {
-    0%{
-        transform: translateY(-100px);
-        opacity: 0;
-    }    
-    100%{
+
+    100% {
         transform: translateY(0px);
         opacity: 1;
     }
 }
 
-.contact{
+@keyframes slideBottom {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
@@ -443,17 +455,17 @@ section{
 
 }
 
-.contact-text h2{
+.contact-text h2 {
     font-size: 70px;
     line-height: 1;
     text-align: center;
 }
 
-.contact-text h2 span{
+.contact-text h2 span {
     color: #0ef;
 }
 
-.contact-text h4{
+.contact-text h4 {
     margin: 15px 0;
     color: rgb(228, 228, 228);
     font-size: 20px;
@@ -461,15 +473,16 @@ section{
 
 }
 
-.contact-list{
+.contact-list {
     margin-bottom: 3rem;
 }
 
-.contact-list li{
+.contact-list li {
     margin-bottom: 10px;
     display: block;
 }
-.contact-list i{
+
+.contact-list i {
     display: inline-block;
     color: #0ef;
     font-size: 20px;
@@ -477,12 +490,12 @@ section{
     transition: all .40s ease;
 }
 
-.contact-list li a:hover{
+.contact-list li a:hover {
     transform: scale(1.01) translateY((-5px));
     color: #0ef;
 }
 
-.contact-icons i{
+.contact-icons i {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -497,22 +510,25 @@ section{
     margin: 30px 15px 30px 0;
     transition: .5s ease;
     opacity: 0;
-    animation:  slideLeft 1s ease forwards;
-    animation-delay:  calc(.2s * var(--i));
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
     margin-top: -20%;
 }
-.contact-icons i:hover{
+
+.contact-icons i:hover {
     background: #0ef;
     color: #000;
     box-shadow: 0 0 20px #0ef;
-    
+
 }
-.contact-form form{
+
+.contact-form form {
     position: relative;
     margin-right: 20%;
 }
 
-.contact-form form input,form textarea{
+.contact-form form input,
+form textarea {
     border: none;
     outline: none;
     width: 90%;
@@ -524,12 +540,13 @@ section{
     margin-bottom: 0.5rem;
     border-radius: 0.5rem;
 }
-.contact-form textarea{
+
+.contact-form textarea {
     resize: none;
     height: 220px;
 }
 
-.contact-form .send{
+.contact-form .send {
     display: inline-block;
     padding: 14px 60px;
     background: #0ef;
@@ -545,24 +562,27 @@ section{
     box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
     cursor: pointer;
 }
-.contact-form .send:hover{
+
+.contact-form .send:hover {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan;
 }
-.contact-text .contactdeco{
+
+.contact-text .contactdeco {
     padding-left: 30%;
 }
-header .bx{
+
+header .bx {
     display: none;
 }
 
-#msg{
+#msg {
     color: #61b752;
     margin-top: -10px;
-    display: block;  
+    display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.copyright{
+.copyright {
     background: #010817;
     width: 100%;
     padding: 25px 0;
@@ -571,31 +591,73 @@ header .bx{
     font-weight: 300;
     text-align: center;
     margin-top: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.copyright i {
+    color: rgb(5, 245, 197);
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(3, 212, 240);
+    border-radius: 50%;
+    display: inline-block;
     
 }
 
-.copyright i{
-    color: rgb(5, 245, 197) ;
+.dot1{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(3, 240, 240);
+    border-radius: 50%;
+    display: inline-block;
 }
+
+.tab-contents li div{
+    padding-left: 29.8%;
+    margin-top: -4%;
+}
+
+.intermediate  div{
+    display: flex;
+    padding-left: 10%;
+    margin-top: 12%;
+}
+
+.intermediate li{
+    margin-top: -5%;
+}
+
+.vl {
+    border-left: 3px solid rgba(30, 145, 173, 0.719);
+    height: 65px;
+    position: absolute;
+    left: 70.6%;
+    margin-left: 0px;
+    margin-top: -3.3%;
+  }
 
 @media only screen and (max-width: 600px) {
-    
-    header .bx{
+
+    header .bx {
         display: none;
         font-size: 25px;
         opacity: 0;
         animation: slideLeft 1s ease forwards;
     }
-    
-    header .navbar{
+
+    header .navbar {
         display: none;
     }
-    img{
+
+    img {
         display: none;
 
     }
-    .about-img img{
+
+    .about-img img {
         display: flex;
         width: 80%;
         padding-left: 10px;
@@ -606,60 +668,73 @@ header .bx{
         margin: 20px 40px;
         left: 20px;
     }
-.about-img{}
 
-    .about{
+
+    .about {
         display: block;
-       
-        
+
+
     }
-    .about-text{
+
+    .about-text {
         padding-left: 50px;
-        
+
     }
-    .about-text h2{
+
+    .about-text h2 {
         font-size: 50px;
 
     }
-    .about-text h4{
+
+    .about-text h4 {
         font-size: 18px;
         padding-left: 35px;
     }
-    .about-text p{
+
+    .about-text p {
         font-size: 15px;
         text-align: -webkit-auto;
         padding-left: 10%;
     }
-    .sub-title{
+
+    .sub-title {
         font-size: 50px;
         margin-bottom: -49px;
         text-align: center;
     }
-    .container1{
+
+    .container1 {
         margin-left: 50px;
         margin-right: 60px;
     }
-    .Technical-bars{
+
+    .Technical-bars {
         display: block;
     }
-    .tab-contents li{
+
+    .tab-contents li {
         margin-left: 4px;
     }
-    .heading1{
+
+    .heading1 {
         font-size: 20px;
     }
-    .contact{
+
+    .contact {
         display: flex;
         font-size: 20px;
     }
-    .contact .contact-text h2{
+
+    .contact .contact-text h2 {
         font-size: 40px;
     }
-    .contactdeco h4{
+
+    .contactdeco h4 {
         font-size: 30px;
         margin: 0;
     }
-    .contact .contact-text h2{
+
+    .contact .contact-text h2 {
         font-size: 60px;
         padding-bottom: 10%;
         margin-top: -10%;
@@ -670,25 +745,29 @@ header .bx{
         padding-bottom: 2px;
     }
 
-    .contact-icons{
+    .contact-icons {
         margin-top: -5%;
         margin-bottom: -8%;
     }
-    .container1{
+
+    .container1 {
         height: 494px;
     }
-    #contact .contact{
+
+    #contact .contact {
         padding-top: -15%;
     }
-    .contact{
+
+    .contact {
         margin-top: 70px;
         padding-bottom: -80px;
     }
-    .sub-title{
+
+    .sub-title {
         margin-top: 40%;
     }
 
-    header .navbar a{
+    header .navbar a {
         background-color: #02191e;
         position: fixed;
         top: 0;
@@ -705,14 +784,17 @@ header .bx{
     .home-content h1 {
         font-size: 40px;
     }
-    .home-content h3{
+
+    .home-content h3 {
         font-size: 20px;
         margin: 10px 0;
     }
+
     .about-text h2 {
         padding-left: 20px;
     }
-    .home{
+
+    .home {
         background-image: url(icon.png);
         background-position: 80px;
         background-size: contain;
@@ -724,20 +806,28 @@ header .bx{
         margin-right: 0%;
     }
 
-    .tab-contents .intermediate{
-       font-size: 10px;
+    .tab-contents .intermediate {
+        font-size: 10px;
     }
 
-    .tab-contents .intermediate .tabtext{
+    .tab-contents .intermediate .tabtext {
         font-size: 10px;
         padding-left: 10px;
     }
 
-    .tab-contents .intermediate .tabtext1{
+    .tab-contents .intermediate .tabtext1 {
         font-size: 15px;
         color: #b2b2b9;
         padding-left: 10px;
     }
+    .dot{
+        display: none;
+
+    }
+    .dot1{
+        display: none;
+    }
+    .vl{
+        display: none;
+    }
 }
-
-
