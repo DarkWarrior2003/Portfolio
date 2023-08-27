@@ -369,8 +369,21 @@ section{
 
 .tab-contents li span {
     color: #0ef;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 10px;
+}
+
+.tab-contents li .tabtext{
+    color: #c2e4cbb7;
+    padding-top: 25px;
+    font-size: 19px;
+    padding-left: 20px;
+    margin-top: 20%;
+}
+.tab-contents li i{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #0ef;
 }
 
 
@@ -701,6 +714,21 @@ header .bx{
     .contact-form form {
         position: relative;
         margin-right: 0%;
+    }
+
+    .tab-contents .intermediate{
+       font-size: 10px;
+    }
+
+    .tab-contents .intermediate .tabtext{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .tab-contents .intermediate .tabtext1{
+        font-size: 15px;
+        color: #b2b2b9;
+        padding-left: 10px;
     }
 }
 
