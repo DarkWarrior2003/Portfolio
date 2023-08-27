@@ -596,10 +596,18 @@ header .bx{
 
     }
     .about-img img{
-        display:block;
+        display: flex;
         width: 80%;
-        padding-right: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(3, 5, 39, 0.63);
+        border-radius: 10px;
+        margin: 20px 40px;
+        left: 20px;
     }
+.about-img{}
+
     .about{
         display: block;
        
@@ -618,7 +626,7 @@ header .bx{
         padding-left: 35px;
     }
     .about-text p{
-        font-size: 17px;
+        font-size: 15px;
         text-align: -webkit-auto;
         padding-left: 10%;
     }
